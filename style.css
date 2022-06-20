@@ -150,7 +150,7 @@ section .Titulo h2{
    border: 2px solid  chartreuse;
 } 
 .SectionQuienesSomos2{
-    background-color: purple;
+    background-image: linear-gradient(to left,black,purple);
 }
 .QuienesSomosParrafo p{
     align-items: center;
