@@ -79,11 +79,13 @@ section .Titulo h2{
 }
 /*Seccion Index*/
 .secciones{
+    display: flex;
     background-image: url(imagenes/imagenDesarrollo.png);
     background-attachment: fixed;
     background-size: cover;
     justify-content: center;
 } 
+
 .seccionesIndex a{
   display: flex;
   justify-content: center;
@@ -236,14 +238,29 @@ section .Titulo h2{
     display: flex;
     justify-content: center;
 }
+.card{
+    background-color: black;
+    color: #63f143;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+   border: 2px solid  chartreuse;
+}
+.card a:hover{
+    color: #63f143;
+}
 footer{
-    padding: 8px;
+    padding: 5px;
     font-size: 12px;
     border-top:2px solid purple;
     background:rgb(0, 0, 0);
     color:chartreuse;
     grid-area: footer;
     margin-bottom: 0%;
+}
+.footerHijos p{
+ margin: 0%;
+
 }
 /*Aqui empieza responsive*/
 @media(max-width:1000px){
