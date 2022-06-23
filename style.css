@@ -242,8 +242,8 @@ section .Titulo h2{
     background-color: black;
     color: #63f143;
     justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    margin-top: 25%;
+    margin-bottom: 8%;
    border: 2px solid  chartreuse;
 }
 .card a:hover{
